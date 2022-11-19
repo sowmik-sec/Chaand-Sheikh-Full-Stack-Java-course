@@ -1,0 +1,22 @@
+package com.sowmik.method;
+
+import java.util.Scanner;
+
+public class Prime {
+	public static void main(String args[]) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Which number do you want to check prime or not: ");
+		int n = in.nextInt();
+		if(isPrime(n)==true) {
+			System.out.println("This is a prime number");
+		}
+		else System.out.println("This is not a prime number");
+	}
+
+	private static boolean isPrime(int n) {
+		for(int i=2;i<=Math.sqrt(n);i++) {
+			if(n%i==0) return false;
+		}
+		return true;
+	}
+}
