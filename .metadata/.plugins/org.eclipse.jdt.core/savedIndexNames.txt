@@ -1,8 +1,6 @@
 INDEX VERSION 1.131+/media/sowmik/Hard Disk/java/Chaand Sheikh Full Stack Java course/.metadata/.plugins/org.eclipse.jdt.core
 3398712648.index
-1121846328.index
 2902723282.index
-3659629937.index
 1865797976.index
 2022139652.index
 1542574690.index
